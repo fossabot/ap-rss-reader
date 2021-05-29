@@ -1,4 +1,5 @@
 exclude .darglint
+exclude .env
 exclude .flake8
 exclude .gitignore
 exclude .gitlint
