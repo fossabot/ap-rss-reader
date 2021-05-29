@@ -94,6 +94,7 @@ source .venv/bin/activate
      actual function/method implementation
    - [mypy][] is a static type checker for Python
    - [flake8][] to identify coding errors and check code style
+   - [pytest][] to run the tests
 
 **Congratulations!** You're now all set to begin development.
 
@@ -120,6 +121,17 @@ source .venv/bin/activate
   ```
 
 - **Your work here ...**
+
+- Run the tests:
+
+  ```shell
+  # note: add 'src' directory to PYTHONPATH beforehand
+  source .env
+
+  pytest
+  ```
+
+  Please add or update tests to ensure the coverage doesn't drop.
 
 - Commit your changes in logical chunks
 
@@ -173,6 +185,7 @@ license your work under the terms of the [MIT License][].
 [darglint]: https://github.com/terrencepreilly/darglint
 [mypy]: https://mypy.readthedocs.io/en/stable/
 [flake8]: https://flake8.pycqa.org/en/latest/
+[pytest]: https://docs.pytest.org/en/latest/
 [github.com help documentation]:
   https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests
 [mit license]:
